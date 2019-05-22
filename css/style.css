@@ -1,0 +1,115 @@
+body {
+	background-size: cover;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	min-height: 100%;
+}
+html {
+	min-height: 100%;
+}
+/*navbar background color*/
+.bg-navbar {
+	background: #00c6ff;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+/*navbar tags color changed to white*/
+.nav-link {
+	color: #ffffff !important;
+}
+/*container fluid for responsive grid*/
+.container-fluid {
+	background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+/*border for navbar logo*/
+.border-2px {
+	border: 2px solid #ffffff !important;
+}
+/*width of the navbar logo image*/
+.width {
+	width: 32px !important;
+}
+/*font size is x-large*/
+.x-large {
+	font-size: x-large;
+}
+/*menu background color*/
+.menu {
+	background: #1A2980;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	height: 100vh;
+	width: 100%;
+	position: fixed;
+    top: 0;
+    z-index: 20;
+}
+.meetups {
+	text-align: left;
+}
+.gallery {
+	text-align: left;
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: fit-content;
+    height: fit-content;	
+}
+.traveldiaries{
+	text-align: left;
+}
+.traveldiaries-child {
+	bottom: 0;
+}
+.askme {
+	text-align: center;
+}
+.close-menu {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	cursor: pointer;
+	font-size: xx-large;
+}
+.connect{
+	text-align: center;
+}
+.connect-child {
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+.shortfilms {
+	text-align: right; 
+}
+.blogs {
+	text-align: right;
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+    right: 0;
+}
+.socialactivities {
+	text-align: right;
+}
+.socialactivities-child {
+	bottom: 0;
+	right: 0;
+}
+.fullheight {
+	height: 100vh;
+}
+a.text-white {
+	font-size: xx-large;
+}
+.modalButton {
+	cursor: pointer;
+}
